@@ -342,4 +342,71 @@ and (max-width: 800px) {
         margin: 10px 35px 0px 38px;
         
     }
+    .secondLineImg {
+        display: none;
+    }
+    .innovation {
+        display: inline-block;
+        margin: 0px 0px 0px 95%;
+        font-size: 400%
+    }
+    .thirdLine {
+        margin: 0px 10px;
+    }
+    }
+    
+
+
+@media only screen 
+and (max-width: 500px) {
+   
+    .topLineImg {
+        border-bottom: 1px solid lightgray;
+        padding: 0px 0px 15px 0px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        font-size: 22px;
+        font-weight: 200;
+        align-content: center; 
+
+    }
+    .topLine {
+       
+
+        width: 100%;
+        margin: 0px auto;
+        padding: 0px 0px 0px 0px;
+    }
+    .topLine a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0px 15px 0px;
+        border-bottom: 1px solid lightgrey;
+        padding: 0px 0px 15px 0px;
+    }
+    .innovation{
+        margin: 0px 0px 0px 50%;
+    }
+    .thirdLineBlock {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .thirdLine {
+        margin: 10px 0px;
+    }
+
+    .fifthLineBlock {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .fifthLine {
+        margin: 10px 0px;
+    }
 }
