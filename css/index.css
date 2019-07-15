@@ -332,14 +332,15 @@ and (max-width: 800px) {
        text-align: center;
    }
    .topLineImg {
-       display: inline-block
+       display: inline-block;
+       margin: 0% 0% 3% 0%;
    }
    nav {
        text-align: center
    }
     .topLine{
         display: inline-block;
-        margin: 10px 35px 0px 38px;
+        margin:  0% 0% 0% 11%;
         
     }
     .secondLineImg {
@@ -347,7 +348,7 @@ and (max-width: 800px) {
     }
     .innovation {
         display: inline-block;
-        margin: 0px 0px 0px 95%;
+        margin: 0px 0px 0px 90%;
         font-size: 400%
     }
     .thirdLine {
