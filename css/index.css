@@ -382,7 +382,11 @@ and (max-width: 500px) {
         border-bottom: 1px solid lightgray;
         padding: 0px 0px 15px 0px;
     }
-    
+    .topImg {
+        margin: 0% 40% 5% 0%;
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+    }
     nav {
         display: flex;
         flex-direction: column;
@@ -400,7 +404,7 @@ and (max-width: 500px) {
         margin: 0px auto;
         padding: 0px 0px 0px 0px;
     }
-    .topLine a {
+    .topLine a , .header2 nav a {
         display: block;
         width: 100%;
         text-align: center;
@@ -408,6 +412,16 @@ and (max-width: 500px) {
         border-bottom: 1px solid lightgrey;
         padding: 0px 0px 15px 0px;
     }
+    .services-header-img {
+        display: none;
+    }
+    .servDes  {
+        text-align: center;
+    }
+    .topSect {
+        margin: 0% 0% 0% 44%;
+    }
+
     .innovation{
         margin: 0px 0px 0px 50%;
     }
