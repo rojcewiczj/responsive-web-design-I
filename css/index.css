@@ -53,6 +53,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+
 }
 
 html, body {
@@ -116,7 +117,7 @@ nav a {
 	text-align: center;
 	width: 140px;
 	margin: 15px 0px;
-	padding: 5px 10px;
+	padding: 5px 25px;
 	background: rgb(245, 243, 243);
 	border: 1px solid gray;
 	border-radius: 2%;
@@ -125,7 +126,7 @@ nav a {
 	display: flex;
 	margin: 40px 0px;
 	padding: 40px 0px 5px 0px;
-	border-top: 1px solid gray;
+	border-top: 2px solid gray;
 }
 .fifthLine {
 	padding: 5px 15px;
@@ -138,7 +139,7 @@ nav a {
 	margin: 40px 0px;
 }
 footer {
-	border-top: 1px solid gray;
+	border-top: 2px solid gray;
 	padding: 30px 0px;
 	margin: 30px 0px 0px 0px;
 }
@@ -322,7 +323,99 @@ li {
 	margin: 40px 0px 0px 0px;
 }
 
-/* start of media queries */
+/* start of media queries for index.html */
+@media only screen 
+and (max-width: 800px) {
+   header {
+       display: flex;
+       flex-direction: column-reverse;
+       align-content: center;
+       text-align: center;
+   }
+   .topLineImg {
+       display: inline-block;
+       margin: 0% 0% 3% 0%;
+   }
+   nav {
+       text-align: center
+   }
+    .topLine{
+        display: inline-block;
+        margin:  0% 0% 0% 11%;
+        
+    }
+    .secondLineImg {
+        display: none;
+    }
+    .innovation {
+        display: inline-block;
+        margin: 0px 0px 0px 90%;
+        font-size: 400%
+    }
+    .thirdLine {
+        margin: 0px 10px;
+    }
+    }
+    
+
+
+@media only screen 
+and (max-width: 500px) {
+   
+    .topLineImg {
+        border-bottom: 1px solid lightgray;
+        padding: 0px 0px 15px 0px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        font-size: 22px;
+        font-weight: 200;
+        align-content: center; 
+
+    }
+    .topLine {
+       
+
+        width: 100%;
+        margin: 0px auto;
+        padding: 0px 0px 0px 0px;
+    }
+    .topLine a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0px 15px 0px;
+        border-bottom: 1px solid lightgrey;
+        padding: 0px 0px 15px 0px;
+    }
+    .innovation{
+        margin: 0px 0px 0px 50%;
+    }
+    .thirdLineBlock {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .thirdLine {
+        margin: 10px 0px;
+    }
+
+    .fifthLineBlock {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .fifthLine {
+        margin: 10px 0px;
+    }
+}
+
+/* media queries for service.html */
+
+
 @media only screen 
 and (max-width: 800px) {
    header {
